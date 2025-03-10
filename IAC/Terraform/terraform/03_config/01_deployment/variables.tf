@@ -27,3 +27,13 @@ variable "rs_container_key" {
   description = "The name of the remote state file in the storage account container"
   type        = string
 }
+
+variable "target_tenant_id" {
+  description = "The target tenant id"
+  type        = string
+}
+
+variable "target_subscription_id" {
+  description = "The target subscription id"
+  type        = string
+}

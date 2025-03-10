@@ -56,3 +56,13 @@ variable "env_version" {
   description = "The version of the environment to be deployed"
   type        = string
 }
+
+variable "target_tenant_id" {
+  description = "The target tenant id"
+  type        = string
+}
+
+variable "target_subscription_id" {
+  description = "The target subscription id"
+  type        = string
+}
